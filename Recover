@@ -1,0 +1,14 @@
+from some.module import add
+
+add(1, 2)
+
+from some.module import add
+
+add(1, 2)
+
+$ monkeytype run myscript.py
+
+def add(a: int, b: int) -> int: ...
+
+def add(a: int, b: int) -> int:
+    return a + b
