@@ -10,5 +10,24 @@ $ monkeytype run myscript.py
 
 def add(a: int, b: int) -> int: ...
 
-def add(a: int, b: int) -> int:
+def add (a: int, b: int) -> int:
     return a + b
+
+http://mypy.readthedocs.io/en/latest/
+
+http://www.python.org/dev/peps/pep-0483
+
+http://www.python.org/dev/peps/pep-0484
+
+https://pypi.python.org/pypi/libcst
+
+pip install MonkeyType
+
+https://docs.python.org/3/library/sys.html#sys.setprofile
+
+https://mypy.readthedocs.io/en/latest/getting_started.html#library-stubs-and-typeshed
+
+https://pypi.python.org/pypi/libcst
+
+
+http://monkeytype.readthedocs.io/en/latest/
