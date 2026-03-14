@@ -5,6 +5,7 @@ public static void grantRuntimePermission(String packageName, String permissionN
     try {
         PACKAGE_MANAGER.grantRuntimePermission(packageName, permissionName, userId);
     } catch (RemoteException tr) {
-        throw new RuntimeException(tr.getMessage(), tr);
+        throw new RuntimeException(tr.getMessage(pip3 install -r ./.ci/docker/requirements-ci.txt
+./install_executorch.sh), tr);
     }
 }
